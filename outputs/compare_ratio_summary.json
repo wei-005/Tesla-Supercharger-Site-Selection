@@ -1,0 +1,98 @@
+{
+  "backtest": [
+    {
+      "segment": "corridor",
+      "method": "D/S^0 (demand only)",
+      "auc": 0.655,
+      "precision": 0.295
+    },
+    {
+      "segment": "corridor",
+      "method": "D/S^0.5",
+      "auc": 0.662,
+      "precision": 0.248
+    },
+    {
+      "segment": "corridor",
+      "method": "D/S^0.5 +comp",
+      "auc": 0.655,
+      "precision": 0.267
+    },
+    {
+      "segment": "corridor",
+      "method": "D/S^1",
+      "auc": 0.655,
+      "precision": 0.19
+    },
+    {
+      "segment": "corridor",
+      "method": "current (rolling recalibrated)",
+      "auc": 0.673,
+      "precision": 0.314
+    },
+    {
+      "segment": "corridor",
+      "method": "random",
+      "auc": 0.5,
+      "precision": 0.153
+    },
+    {
+      "segment": "metro",
+      "method": "D/S^0 (demand only)",
+      "auc": 0.751,
+      "precision": 0.8
+    },
+    {
+      "segment": "metro",
+      "method": "D/S^0.5",
+      "auc": 0.632,
+      "precision": 0.563
+    },
+    {
+      "segment": "metro",
+      "method": "D/S^0.5 +comp",
+      "auc": 0.628,
+      "precision": 0.498
+    },
+    {
+      "segment": "metro",
+      "method": "D/S^1",
+      "auc": 0.451,
+      "precision": 0.539
+    },
+    {
+      "segment": "metro",
+      "method": "current (rolling recalibrated)",
+      "auc": 0.757,
+      "precision": 0.788
+    },
+    {
+      "segment": "metro",
+      "method": "random",
+      "auc": 0.5,
+      "precision": 0.283
+    }
+  ],
+  "wins": {
+    "metro": {
+      "auc_years_current_better": 7,
+      "precision_years_current_better": 6,
+      "precision_years_tied": 0
+    },
+    "corridor": {
+      "auc_years_current_better": 5,
+      "precision_years_current_better": 3,
+      "precision_years_tied": 2
+    }
+  },
+  "decision": {
+    "ratio_npv_musd": 6.6,
+    "current_npv_musd": 73.3,
+    "ratio_corridor_gwh": 1.17,
+    "current_corridor_gwh": 5.44,
+    "overlap_within_15km": 0,
+    "ratio_negative_npv_sites": 2,
+    "ratio_mean_competitor_share": 0.17,
+    "current_mean_competitor_share": 0.33
+  }
+}

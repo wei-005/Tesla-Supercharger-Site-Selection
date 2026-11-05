@@ -1,0 +1,31 @@
+headroom_mult,cell6,state,county,stalls,best_interconnect,megapacks,months_to_energise,npv_musd,service_level,curtailed_mwh_y1
+1.0,86283631fffffff,CA,San Joaquin County,32,dynamic_flex,0,8,11.71,1.0,0
+1.0,8629a0c47ffffff,CA,Riverside County,24,dynamic_flex,0,8,9.12,1.0,0
+1.0,8629b6d37ffffff,AZ,Maricopa County,20,static_flex,0,8,8.12,1.0,1
+1.0,86268c60fffffff,CO,El Paso County,16,static_flex,0,8,7.26,1.0,0
+1.0,862a100afffffff,NY,Bronx County,16,static_flex,0,8,6.62,0.997,13
+1.0,86441a597ffffff,FL,Polk County,16,static_flex,0,8,5.26,1.0,0
+1.0,8628f0137ffffff,OR,Clackamas County,16,static_flex,0,8,4.64,1.0,0
+1.0,8629a970fffffff,CA,Merced County,32,dynamic_flex,0,8,4.14,0.998,6
+1.0,862ab2ce7ffffff,MI,Wayne County,16,static_flex,0,8,4.08,1.0,0
+1.0,862a94d07ffffff,OH,Lucas County,16,static_flex,0,8,3.04,1.0,0
+0.5,86283631fffffff,CA,San Joaquin County,32,dynamic_flex,0,8,11.71,1.0,0
+0.5,8629a0c47ffffff,CA,Riverside County,24,dynamic_flex,0,8,9.12,1.0,1
+0.5,8629b6d37ffffff,AZ,Maricopa County,20,static_flex,1,8,7.44,0.99,1042
+0.5,86268c60fffffff,CO,El Paso County,16,dynamic_flex,0,8,7.22,1.0,0
+0.5,862a100afffffff,NY,Bronx County,16,dynamic_flex,0,8,6.56,0.995,17
+0.5,86441a597ffffff,FL,Polk County,16,static_flex,1,8,4.48,1.0,165
+0.5,8628f0137ffffff,OR,Clackamas County,16,static_flex,0,8,4.21,0.966,83
+0.5,8629a970fffffff,CA,Merced County,32,dynamic_flex,0,8,4.14,0.998,6
+0.5,862ab2ce7ffffff,MI,Wayne County,16,static_flex,0,8,3.99,0.991,21
+0.5,862a94d07ffffff,OH,Lucas County,16,static_flex,0,8,2.96,0.99,18
+0.3,86283631fffffff,CA,San Joaquin County,32,dynamic_flex,0,8,11.71,1.0,0
+0.3,8629a0c47ffffff,CA,Riverside County,24,dynamic_flex,0,8,9.12,1.0,1
+0.3,8629b6d37ffffff,AZ,Maricopa County,20,firm,0,24,5.92,1.0,0
+0.3,86268c60fffffff,CO,El Paso County,16,dynamic_flex,0,8,7.22,1.0,0
+0.3,862a100afffffff,NY,Bronx County,16,dynamic_flex,0,8,6.56,0.995,17
+0.3,86441a597ffffff,FL,Polk County,16,static_flex,1,8,4.38,0.983,866
+0.3,8628f0137ffffff,OR,Clackamas County,16,static_flex,1,8,3.78,0.983,690
+0.3,8629a970fffffff,CA,Merced County,32,dynamic_flex,0,8,4.14,0.998,6
+0.3,862ab2ce7ffffff,MI,Wayne County,16,static_flex,1,8,3.46,1.0,214
+0.3,862a94d07ffffff,OH,Lucas County,16,static_flex,0,8,2.38,0.934,123

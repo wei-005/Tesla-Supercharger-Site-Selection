@@ -1,0 +1,8 @@
+pandas>=2.0
+numpy>=1.24
+scipy>=1.11
+scikit-learn>=1.3
+networkx>=3.0
+h3>=4.0
+playwright>=1.40   # only for src/make_report.py (PDF); run `playwright install chromium` once
+pypdf>=3.0

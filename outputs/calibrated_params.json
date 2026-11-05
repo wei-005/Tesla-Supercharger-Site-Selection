@@ -1,0 +1,84 @@
+{
+  "beta": 1.5,
+  "r_comfort": 240.0,
+  "w_metro": {
+    "local_gross": 0.0,
+    "local": 0.0,
+    "pot": 1.0,
+    "dnear": 0.0
+  },
+  "w_corridor": {
+    "corr_gross": 0.5,
+    "anx": 0.0,
+    "corr": 0.0,
+    "flow": 0.5,
+    "dnear": 0.0
+  },
+  "fixed_split": {
+    "beta": 2.0,
+    "r_comfort": 160.0,
+    "w_metro": {
+      "local_gross": 0.25,
+      "local": 0.0,
+      "pot": 0.5,
+      "dnear": 0.25
+    },
+    "w_corridor": {
+      "corr_gross": 0.5,
+      "anx": 0.25,
+      "corr": 0.0,
+      "flow": 0.0,
+      "dnear": 0.25
+    }
+  },
+  "summary": {
+    "calibration": {
+      "metro_auc": 0.7683,
+      "metro_precision": 0.6429,
+      "metro_auc_pop": 0.7379,
+      "metro_precision_pop": 0.5952,
+      "metro_auc_gap": 0.7606,
+      "metro_precision_gap": 0.5571,
+      "metro_precision_random": 0.1733,
+      "corridor_auc": 0.7196,
+      "corridor_precision": 0.2667,
+      "corridor_auc_pop": 0.5834,
+      "corridor_precision_pop": 0.1667,
+      "corridor_auc_gap": 0.7345,
+      "corridor_precision_gap": 0.2333,
+      "corridor_precision_random": 0.0963
+    },
+    "holdout": {
+      "metro_auc": 0.7335,
+      "metro_precision": 0.8143,
+      "metro_auc_pop": 0.7585,
+      "metro_precision_pop": 0.8286,
+      "metro_auc_gap": 0.6589,
+      "metro_precision_gap": 0.5929,
+      "metro_precision_random": 0.3288,
+      "corridor_auc": 0.5687,
+      "corridor_precision": 0.2667,
+      "corridor_auc_pop": 0.5718,
+      "corridor_precision_pop": 0.35,
+      "corridor_auc_gap": 0.6198,
+      "corridor_precision_gap": 0.2333,
+      "corridor_precision_random": 0.1789
+    },
+    "rolling_oos": {
+      "metro_auc": 0.7568,
+      "metro_precision": 0.7878,
+      "metro_auc_pop": 0.764,
+      "metro_precision_pop": 0.7714,
+      "metro_auc_gap": 0.687,
+      "metro_precision_gap": 0.5714,
+      "metro_precision_random": 0.2826,
+      "corridor_auc": 0.6732,
+      "corridor_precision": 0.3143,
+      "corridor_auc_pop": 0.6008,
+      "corridor_precision_pop": 0.2952,
+      "corridor_auc_gap": 0.6759,
+      "corridor_precision_gap": 0.2476,
+      "corridor_precision_random": 0.1527
+    }
+  }
+}

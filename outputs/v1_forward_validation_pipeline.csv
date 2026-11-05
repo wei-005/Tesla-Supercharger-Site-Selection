@@ -1,0 +1,5 @@
+segment,ranking,k,share_within_15km_of_tesla_pipeline
+metro,model,50,0.86
+metro,random,50,0.38
+corridor,model,30,0.23333333333333334
+corridor,random,30,0.1

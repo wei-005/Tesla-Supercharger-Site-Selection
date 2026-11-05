@@ -1,0 +1,9 @@
+{
+  "chosen_eps_share": 0.5,
+  "npv_unconstrained_musd": 70.5545174774341,
+  "npv_chosen_musd": 63.987404411541654,
+  "corridor_gwh_chosen": 9.319954827405429,
+  "corridor_gwh_max": 18.55844679442658,
+  "profit_weight": 0.6666666666666666,
+  "max_sites_per_state": 3
+}

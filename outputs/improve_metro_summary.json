@@ -1,0 +1,74 @@
+{
+  "summary": [
+    {
+      "method": "E2 logistic, all cheap features",
+      "auc": 0.836,
+      "precision": 0.784,
+      "years_auc_beats_demand_only": 7
+    },
+    {
+      "method": "E4 boosted trees, without momentum",
+      "auc": 0.831,
+      "precision": 0.8,
+      "years_auc_beats_demand_only": 7
+    },
+    {
+      "method": "E3 boosted trees, all cheap features",
+      "auc": 0.829,
+      "precision": 0.82,
+      "years_auc_beats_demand_only": 7
+    },
+    {
+      "method": "A best single scale (beta 2.5)",
+      "auc": 0.784,
+      "precision": 0.751,
+      "years_auc_beats_demand_only": 7
+    },
+    {
+      "method": "E1 logistic, demand scales only",
+      "auc": 0.782,
+      "precision": 0.727,
+      "years_auc_beats_demand_only": 6
+    },
+    {
+      "method": "B demand x supply15 (log-sum)",
+      "auc": 0.757,
+      "precision": 0.808,
+      "years_auc_beats_demand_only": 5
+    },
+    {
+      "method": "current method",
+      "auc": 0.757,
+      "precision": 0.788,
+      "years_auc_beats_demand_only": 5
+    },
+    {
+      "method": "demand only (beta 1.5)",
+      "auc": 0.751,
+      "precision": 0.8,
+      "years_auc_beats_demand_only": 0
+    },
+    {
+      "method": "C demand x momentum40 (log-sum)",
+      "auc": 0.733,
+      "precision": 0.792,
+      "years_auc_beats_demand_only": 0
+    }
+  ],
+  "logit_coef": {
+    "demand_pot": -2.627,
+    "demand_pot_b2.0": 2.563,
+    "demand_pot_b2.5": 2.225,
+    "demand_pot_b3.0": -1.869,
+    "flow_through": 0.591,
+    "local_gross": 0.49,
+    "stalls_15km": 0.231,
+    "d_nearest_tesla": 0.229,
+    "comp_ports_15km": 0.212,
+    "stalls_5km": 0.172,
+    "local_net": -0.16,
+    "stalls_30km": 0.096,
+    "recent_open_40km": 0.041,
+    "recent_open_15km": -0.04
+  }
+}
